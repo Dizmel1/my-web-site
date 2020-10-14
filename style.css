@@ -1,0 +1,201 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*--------------------------------------------------Header-----------------------------------------------*/
+.page-header{
+    display:flex ;
+    margin-top:10px;
+}
+/*Navigation*/
+.main-manu{
+    flex-grow: 1;
+}
+.main-menu-list{
+    list-style: none;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+}
+.main-menu-list a {
+    font-size: 30px;
+    color:blue;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.main-menu-list a:hover {
+background-color: #3893cc;
+}
+/*---------------------------------------------------Footer-----------------------------------------------*/
+.page-footer{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 35px 0;
+    background-color: #b5d4c5;
+}
+.hashtag, .footerSocial, .copyright{
+    margin:0;
+    padding: 0;
+}
+.hashtag{
+    font-size:21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footerSocial{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.socialButton{
+    margin:0 10px;
+}
+.socialButton img {
+    width: 30px;
+}
+.copyright{
+    line-height: 26px;
+    font-size:14px;
+    font-weight: 400;
+}
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+/*---------------------------------------------------Main-----------------------------------------------*/
+h2{
+    font-size: 36px;
+    line-height: 49px;
+    color:#2a3d8f;
+}
+h3{
+    font-size:30px;
+    line-height:41px;
+}
+.slogan{
+    width: auto;
+    height: 558px;
+    background-image: url(https://arenda-car.ru/upload/iblock/3a0/innsbruck.jpg) ;
+    background-color: #dbe8f7;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slogan h1{
+    font-size:60px;
+    color:#fff;
+    line-height: 82px;
+    padding-top:240px;
+    margin:0;
+}
+.about-info, .about{
+        width: 1200px;
+        margin:0 auto;
+}
+.about-weather img{
+    margin:0 auto;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.about-numbers-list{
+    list-style: none;
+    padding:0;
+    margin:0;
+    padding-left: 20px;
+}
+.about-numbers-list li::before{
+    margin-right: 3px;
+}
+.marketing{
+    background-image: url(https://mota.ru/upload/wallpapers/source/2009/07/16/12/03/15173/sport_146.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.marketing a{
+    color:blueviolet;
+    background-color: white;
+    opacity: 0.7;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 60px;
+    padding: 5px 10px;
+    align-self: flex-end;
+}
+.marketing p{
+    margin: 0;
+    padding:5px;
+    text-transform: uppercase;
+    font-size: 2vw;
+    line-height: 33px;
+}
+figcaption{
+    text-align: center;
+    background-color: grey;
+    line-height: 33px;
+    padding: 5px;
+    color:white;
+    font-size: 22px;
+    font-weight: 500;
+}
+.about-weather-graph{
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+.about-weather{
+    margin-bottom: 20px;
+}
+.gallery-list{
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;       
+}
+.gallery-item{
+    display: flex;
+    flex-direction: row; 
+    min-height: 256px;
+    color:white; 
+    background-color: #b5d4c5;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+.gallery-item h3{
+    width: 400px;
+    padding: 80px 59px 60px;
+    text-transform: uppercase;   
+}
+.gallery-item img{
+    height: 350px;
+    width: 700px;
+}
+.transfer{
+    border-collapse: collapse;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+.transfer thead{
+    background-color: rgb(32, 46, 92);
+    color:white;
+}
+.transfer td, th{
+border: 1px solid #333;
+padding: 5px;
+text-align: center;
+}
