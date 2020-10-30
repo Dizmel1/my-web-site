@@ -3,6 +3,15 @@ html,body{
     padding:0;
     font-family: 'Noto Sans', sans-serif;
 }
+h2{
+    font-size: 36px;
+    line-height: 49px;
+    color:#2a3d8f;
+}
+h3{
+    font-size:30px;
+    line-height:41px;
+}
 a{
     text-decoration: none;
 }
@@ -72,17 +81,8 @@ background-color: #3893cc;
     margin:0 auto;
 }
 /*---------------------------------------------------Main-----------------------------------------------*/
-h2{
-    font-size: 36px;
-    line-height: 49px;
-    color:#2a3d8f;
-}
-h3{
-    font-size:30px;
-    line-height:41px;
-}
+
 .slogan{
-    width: auto;
     height: 558px;
     background-image: url(https://arenda-car.ru/upload/iblock/3a0/innsbruck.jpg) ;
     background-color: #dbe8f7;

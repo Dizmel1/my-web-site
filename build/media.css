@@ -1,0 +1,68 @@
+@media(max-width:425px){
+    h2{
+    font-size: 25px;
+    line-height: 30px;    
+    } 
+    .page-header{
+        flex-direction: column;
+    }
+    .main-menu-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-menu-list a{
+        display: block;
+        padding:20px 0;
+        text-align: center;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    .main-menu-list li{
+        border:1px solid #E7DCDA;
+        width: 100%;
+    }
+    .main-menu{
+        width: 100%;
+    }
+    .marketing{
+        width: 100%;
+        height: 300px;
+    }
+    .marketing a{
+        font-size: 30px;               
+    }  
+    .marketing p{
+        font-size: 3vw;
+        text-align: center;
+        color:black; 
+        padding-top: 50px;
+    }
+    .about p, h3, h2{
+        font-size: 30px;
+    }
+    .about-numbers-list li{
+        font-size: 25px;
+    }
+    .gallery p{
+        font-size: 30px;
+    }
+    .slogan{
+      width: 1200px;
+    }
+    .transfer{
+        width: 100%;
+        margin:0;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .page-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerSocial{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
